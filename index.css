@@ -43,6 +43,24 @@ nav a:hover {
 
 }
 
+.switchNews {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.switchNewsDetails {
+    display: flex;
+}
+
+.switchNewsDetails aside {
+    flex: 3;
+}
+
+.switchNewsDetails section {
+    flex: 7;
+}
+
 
 body {
     background-color: antiquewhite;
