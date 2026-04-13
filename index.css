@@ -1,0 +1,18 @@
+p {
+    color: rgb(71, 34, 255);
+}
+
+.description {
+    color: brown;
+    font-size: xx-large;
+}
+
+#additional {
+    color: rgb(86, 160, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: beige;
+}
