@@ -1,18 +1,58 @@
+:root {
+    --text-color: rgb(42, 136, 165)
+}
+
 p {
-    color: rgb(71, 34, 255);
+    color: var(--text-color);
 }
 
 .description {
-    color: brown;
-    font-size: xx-large;
+    color: var(--text-color);
+    font-size: x-large;
 }
 
 #additional {
-    color: rgb(86, 160, 0);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--text-color);
+
 }
 
-.footer {
-    background-color: rgb(0, 0, 0);
-    color: beige;
+
+body {
+    background-color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.xbox {
+    color: rgb(24, 117, 8);
+
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
+
+.ps5 {
+    color: rgb(22, 29, 215);
+}
+
+.switch {
+    color: rgb(172, 15, 15);
+}
+
+.title,
+.subtitle {
+    line-height: 0;
+    text-align: center;
+}
+
+.title {
+    font-size: 45px;
 }
