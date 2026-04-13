@@ -6,6 +6,33 @@ p {
     color: var(--text-color);
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 24px;
+    border-radius: 16px;
+    position: sticky;
+    top: 0;
+    justify-self: center;
+    background-color: burlywood;
+
+    border-radius: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: black
+}
+
+.services>li:hover {
+    font-weight: bolder;
+}
+
 .description {
     color: var(--text-color);
     font-size: x-large;
